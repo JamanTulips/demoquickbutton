@@ -93,9 +93,9 @@ export default function Page() {
         </div>
       </div>
       <form>
-        <div className="field"><label for="f-name">Namn</label><input id="f-name" placeholder="Ditt namn" required /></div>
-        <div className="field"><label for="f-email">E-post</label><input id="f-email" type="email" placeholder="din@epost.se" required /></div>
-        <div className="field"><label for="f-msg">Meddelande</label><textarea id="f-msg" rows="3">Jag är intresserad av den här produkten: Klassisk namnskylt med logotyp.</textarea></div>
+        <div className="field"><label htmlFor="f-name">Namn</label><input id="f-name" placeholder="Ditt namn" required /></div>
+        <div className="field"><label htmlFor="f-email">E-post</label><input id="f-email" type="email" placeholder="din@epost.se" required /></div>
+        <div className="field"><label htmlFor="f-msg">Meddelande</label><textarea id="f-msg" rows={3}>Jag är intresserad av den här produkten: Klassisk namnskylt med logotyp.</textarea></div>
         <button type="submit" className="btn btn-primary btn-full">Skicka intresseanmälan</button>
       </form>
     </div>
